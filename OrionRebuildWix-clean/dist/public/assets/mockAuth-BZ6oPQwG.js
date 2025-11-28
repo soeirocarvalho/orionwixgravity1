@@ -1,0 +1,1 @@
+function o(t){const e=btoa(JSON.stringify({alg:"HS256",typ:"JWT"})),n=btoa(JSON.stringify({...t,iat:Date.now()/1e3,exp:Date.now()/1e3+60*60*24}));return`${e}.${n}.mock_signature`}export{o as generateMockToken};

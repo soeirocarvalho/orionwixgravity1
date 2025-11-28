@@ -1,0 +1,8 @@
+*.zip filter=lfs diff=lfs merge=lfs -text
+\# filter=lfs diff=lfs merge=lfs -text
+and filter=lfs diff=lfs merge=lfs -text
+other filter=lfs diff=lfs merge=lfs -text
+extensions, filter=lfs diff=lfs merge=lfs -text
+as filter=lfs diff=lfs merge=lfs -text
+needed filter=lfs diff=lfs merge=lfs -text
+server/seed-data/driving-forces.json filter=lfs diff=lfs merge=lfs -text
